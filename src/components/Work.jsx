@@ -5,17 +5,17 @@ export const Work = () => {
   const project = data;
 
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0c2040] ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <h2 className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+        <div className="pb-10 mt-2">
+          <h2 className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
             Work
           </h2>
           <p className="py-6">// Check out some of my recent work</p>
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 ">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
