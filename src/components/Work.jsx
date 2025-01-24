@@ -15,17 +15,17 @@ export const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
-                flex justify-center text-center items-center mx-auto content-div "
+                flex justify-center text-center items-center mx-auto content-div  "
             >
               {/* Hover effect for images */}
-              <div className="opacity-0 group-hover:opacity-100 ">
+              <div className="opacity-0 group-hover:opacity-80 ">
                 <span className="mx-auto text-2xl font bold text-white tracking-wider text-nowrap">
                   {item.name}
                 </span>

@@ -6,7 +6,7 @@ import fakeNews from '../assets/fakenews.jpg'
 export const data=[
     {
         id:1,
-        name:"Shop Cart Functionality Application",
+        name:"ShopCart Application",
         image:WorkIm,
         github:"",
         live:"",
