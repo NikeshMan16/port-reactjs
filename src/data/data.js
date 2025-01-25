@@ -2,6 +2,7 @@ import WorkIm from '../assets/project/workImg.jpeg'
 import RealEst from '../assets/project/realestate.jpg'
 import workGen from '../assets/project/workoutgen.png'
 import fakeNews from '../assets/fakenews.jpg'
+import resumeMatcher from '../assets/project/Resume.webp'
 
 export const data=[
     {
@@ -28,7 +29,7 @@ export const data=[
     {
         id:4,
         name:"Resume Matcher",
-        image:RealEst,
+        image:resumeMatcher,
         github:"https://github.com/NikeshMan16/resume-matcher",
         live:"",
     },
