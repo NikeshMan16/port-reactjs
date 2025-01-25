@@ -14,8 +14,8 @@ export const Home = () => {
         <div className='px-5 max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-pink-600' name='special text-lg' >Hi, my name is</p>
             <h1 className='text-5xl sm:8xl font-bold text-[#ccd6f6]'>Nikesh Man Shrestha</h1>
-            <h2 className='text-5xl sm:8xl font-bold text-[#8892b0]'>I'm a Frontend Developer</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px] text-lg'>A Computer Engineer currently focusing in frontend development and mastering <span className='font-semibold text-white'>REACTjs</span> for dynamic web applications and building responsive & reactive web applications.
+            <h2 className='text-5xl sm:8xl font-bold text-[#8892b0]'>I'm a Developer</h2>
+            <p className='text-[#8892b0] py-4 max-w-[700px] text-lg'>A Computer Engineer currently focusing in software development and learning <span className='font-semibold text-white'>REACTjs</span> for dynamic web applications and building responsive & reactive web applications.
             </p>
 
 
