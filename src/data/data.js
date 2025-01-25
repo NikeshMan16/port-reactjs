@@ -3,12 +3,13 @@ import RealEst from '../assets/project/realestate.jpg'
 import workGen from '../assets/project/workoutgen.png'
 import fakeNews from '../assets/fakenews.jpg'
 import resumeMatcher from '../assets/project/Resume.webp'
+import shopCart from '../assets/project/shopcart.webp'
 
 export const data=[
     {
         id:1,
         name:"ShopCart Application",
-        image:WorkIm,
+        image:shopCart,
         github:"",
         live:"",
     },
