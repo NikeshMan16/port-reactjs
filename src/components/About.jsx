@@ -24,7 +24,7 @@ export const About = () => {
                         <h2>Hi. I'm Nikesh. <br />Great to see you here!</h2>
                     </div>
                     <div>
-                        <p className='text-lg'>Currently focusing on being Software developer and exploring new technologies day by day. I do have a professional certificate in Quality Assurance as well as Python with Django. Academically qualified as a Computer Engineer.</p>
+                        <p className='text-lg'>Currently focusing on being Software developer & exploring new technologies day by day. I do have a professional certificate in Quality Assurance as well as Python with Django. Academically qualified as a Computer Engineer.</p>
                     </div>
                 
 
