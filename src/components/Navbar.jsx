@@ -1,129 +1,69 @@
-import React, { useState } from 'react'
-
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
 export const Navbar = () => {
+    const [nav, setNav] = useState(false);
 
-    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav);
 
-
-    const handleClick = () => setNav(!nav)
-    
-
-    return(
+    return (
         <>
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-400'>
-            <div>
-                <p className='text-pink-600 font-bold text-3xl border outline border-pink-500 cursor-pointer'><Link to='home' smooth={true} duration={500}>NS</Link></p>
-                {/* <img src={Logo} alt="MainLogo" style={{ width: '50px' }} /> */}
+            <div className='fixed w-full h-[80px] flex justify-between items-center px-2 bg-[#0a192f] text-gray-400'>
+                {/* Logo or NS Symbol (Aligned to the Left) */}
+                <div>
+                    <p className='text-pink-600 font-bold text-3xl border outline border-pink-500 cursor-pointer mx-6 my-6'>
+                        <Link to='home' smooth={true} duration={500}>NS</Link>
+                    </p>
+                </div>
+
+                {/* Desktop Menu (Centered) */}
+                <ul className='hidden md:flex justify-center flex-1'>
+                    {['home', 'about', 'skills', 'work'].map((item) => (
+                        <li key={item} className='text-2xl mx-4 hover:text-white transition duration-300'>
+                            <Link to={item} smooth={true} duration={500}>
+                                {item.charAt(0).toUpperCase() + item.slice(1)}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+
+                {/* Hamburger Menu (Aligned to the Right) */}
+                <button onClick={handleClick} className='md:hidden z-10' aria-label="Toggle Menu">
+                    {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
+                </button>
+
+                {/* Mobile Menu (Full Screen) */}
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+                    {['home', 'about', 'skills', 'work'].map((item) => (
+                        <li key={item} className='text-3xl py-3 hover:text-pink-600 transition duration-300'>
+                            <Link onClick={handleClick} to={item} smooth={true} duration={500}>
+                                {item.charAt(0).toUpperCase() + item.slice(1)}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+
+                {/* Social Icons (Fixed on the Left) */}
+                <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+                    <ul>
+                        {[
+                            { icon: <FaLinkedin size={30} />, color: 'bg-blue-500', href: 'https://www.linkedin.com/in/nikesh-man-shrestha-28a119268/', label: 'LinkedIn' },
+                            { icon: <FaGithub size={30} />, color: 'bg-gray-700', href: 'https://github.com/NikeshMan16', label: 'Github' },
+                            { icon: <HiOutlineMail size={30} />, color: 'bg-orange-600', href: 'mailto:nikeshmanshrestha@gmail.com', label: 'Mail' },
+                            { icon: <BsFillPersonLinesFill size={30} />, color: 'bg-green-800', href: '', label: 'Resume' }
+                        ].map((social, index) => (
+                            <li key={index} className={`nav-link w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[2px] duration-300 ${social.color} border rounded-sm`}>
+                                <a className='flex justify-between items-center w-full text-gray-300' href={social.href} target="_blank" rel="noopener noreferrer">
+                                    {social.label} {social.icon}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
-        
-        
-            <ul className='hidden md:flex '>
-                <li className='text-2xl'>
-                <Link to='home' smooth={true} duration={500}>
-                    Home
-                </Link>
-                </li>
-                <li className='text-2xl'>
-                <Link to='about' smooth={true} duration={500}>
-                    About
-                </Link>
-                </li>
-                <li className='text-2xl'>
-                <Link to='skills' smooth={true} duration={500}>
-                    Skills
-                </Link>
-                </li>
-                <li className='text-2xl'>
-                <Link to='work' smooth={true} duration={500}>
-                    Work
-                </Link>
-                </li>
-                
-            </ul>
-
-        
-
-        {/* HamburgerMenu */}
-        <div onClick={handleClick} className='md:hidden z-10'>
-            {
-            !nav ? <FaBars/> 
-            : <FaTimes/>}
-        
-        </div>
-
-
-        {/* MobileMenu */}
-        
-        
-            <ul className={
-                !nav ? 'hidden' 
-                : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-inherit'
-            }>
-                <li className='text-3xl py-3'>
-                <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-                    Home
-                </Link>
-                </li>
-                <li className='text-3xl py-3'>
-                <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-                    About
-                </Link>
-                </li>
-                <li className='text-3xl py-3'>
-                <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-                    Skills
-                </Link>
-                </li>
-                <li className='text-3xl py-3'>
-                <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                    Work
-                </Link>
-                </li>
-                
-            </ul>
-
-
-        {/* Social Icons */}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-            <ul>
-                <li className='nav-link w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[2px] duration-300 bg-blue-500 border rounded-sm'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/nikesh-man-shrestha-28a119268/">
-                      LinkedIn<FaLinkedin size={30}/>
-                    </a>
-
-                </li>
-
-                <li className='nav-link w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[2px] duration-300 bg-gray-700 border rounded-sm'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/NikeshMan16">
-                      Github<FaGithub size={30}/>
-                    </a>
-
-                </li>
-
-
-                <li className='nav-link w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[2px] duration-300 bg-orange-600 border rounded-sm'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="mailto:nikeshmanshrestha@gmail.com">
-                      Mail<HiOutlineMail size={30}/>
-                    </a>
-
-                </li>
-                <li className='nav-link w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[2px] duration-300 bg-green-800 border rounded-sm'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="">
-                      Resume<BsFillPersonLinesFill size={30}/>
-                    </a>
-
-                </li>
-
-            </ul>
-
-        </div>
-         
-        </div>
         </>
-    )
-}
+    );
+};

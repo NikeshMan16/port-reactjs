@@ -6,8 +6,10 @@ import ReactImg from '../assets/react.png';
 import AWS from '../assets/aws.png';
 import Github from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
-import Django from '../assets/django.png';
+import Selenium from '../assets/selenium.png';
 import Python from '../assets/python.png';
+import Jira from '../assets/jira.png';
+import Postman from '../assets/postman.png';
 
 
 export const Skills = () => {
@@ -28,6 +30,31 @@ export const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Python} alt="pythonIcon" />
+                    <h2 className='py-4'>Python</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={JavaScript} alt="jsIcon" />
+                    <h2 className='py-4'>JavaScript</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Selenium} alt="seleniumIcon" />
+                    <h2 className='py-4'>Selenium</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Jira} alt="jiraIcon" />
+                    <h2 className='py-4'>Atlassian Jira</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Postman} alt="postmanIcon" />
+                    <h2 className='py-4'>Postman API</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={HTML} alt="htmlIcon" />
                     <h2 className='py-4'>HTML</h2>
                 </div>
@@ -37,10 +64,6 @@ export const Skills = () => {
                     <h2 className='py-4'>CSS</h2>
                 </div>
                 
-                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt="jsIcon" />
-                    <h2 className='py-4'>JavaScript</h2>
-                </div>
                 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt="reactIcon" />
@@ -57,20 +80,13 @@ export const Skills = () => {
                     <h2 className='py-4'>AWS</h2>
                 </div>
 
+
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="tailwindIcon" />
                     <h2 className='py-4'>TailwindCSS</h2>
                 </div>
 
-                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Django} alt="djangoIcon" />
-                    <h2 className='py-4'>Django</h2>
-                </div>
 
-                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Python} alt="pythonIcon" />
-                    <h2 className='py-4'>Python</h2>
-                </div>
 
                 
 
