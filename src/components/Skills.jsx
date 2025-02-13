@@ -70,10 +70,10 @@ export const Skills = () => {
                     <h2 className='py-4'>REACT</h2>
                 </div>
 
-                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                {/* <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt="githubIcon" />
                     <h2 className='py-4'>GitHub</h2>
-                </div>
+                </div> */}
                 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={AWS} alt="awsIcon" />
@@ -81,10 +81,10 @@ export const Skills = () => {
                 </div>
 
 
-                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                {/* <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="tailwindIcon" />
                     <h2 className='py-4'>TailwindCSS</h2>
-                </div>
+                </div> */}
 
 
 
