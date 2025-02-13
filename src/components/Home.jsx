@@ -26,8 +26,8 @@ export const Home = () => {
                     </span>
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px] text-lg'>
-                    A Computer Engineer currently focusing in delivering quality software through proper software testing and learning{' '}
-                    <span className='font-semibold text-white'>REACTjs</span> for dynamic web applications and building responsive & reactive web applications.
+                    A Computer Engineer currently focusing in <span className='font-semibold text-white'>delivering quality software </span>through proper software testing and automation tests. For my creative side, using {' '}
+                    <span className='font-semibold text-white'>REACTjs</span> for building dynamic web applications and building responsive & reactive web applications.
                 </p>
 
                 <div>

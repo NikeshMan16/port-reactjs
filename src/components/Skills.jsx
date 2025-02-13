@@ -20,7 +20,7 @@ export const Skills = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <h2 className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills
+                <h2 className='text-4xl font-bold inline border-b-4 border-pink-600 mt-3'>Skills
 
                 </h2>
                 
