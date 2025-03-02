@@ -15,7 +15,7 @@ export const Home = () => {
                     I'm a{' '}
                     <span className="text-[#8892b0]">
                         <Typewriter
-                            words={[ 'Computer Engineer', 'QA Engineer']}
+                            words={[ 'Computer Engineer', 'QA Engineer','Automation Enthusiast']}
                             loop={0} // Infinite loop
                             cursor
                             cursorStyle="_"
