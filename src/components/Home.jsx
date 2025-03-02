@@ -12,10 +12,10 @@ export const Home = () => {
                 <p className='text-pink-600' name='special text-lg'>Hi, my name is</p>
                 <h1 className='text-5xl sm:8xl font-bold text-[#ccd6f6]'>Nikesh Man Shrestha</h1>
                 <h2 className='text-5xl sm:8xl font-bold text-[#8892b0]'>
-                    I'm a{' '}
+                    I'm {' '}
                     <span className="text-[#8892b0]">
                         <Typewriter
-                            words={[ 'Computer Engineer', 'QA Engineer','Automation Enthusiast']}
+                            words={[ 'a Computer Engineer', 'a QA Engineer','an Automation Enthusiast']}
                             loop={0} // Infinite loop
                             cursor
                             cursorStyle="_"
