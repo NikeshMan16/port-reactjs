@@ -24,7 +24,7 @@ export const About = () => {
                         <h2>Hi. I'm Nikesh. <br />Great to see you here!</h2>
                     </div>
                     <div>
-                        <p className='text-lg'>Currently focusing on being Software Quality Assurance Engineer & exploring new technologies day by day. I do have a professional certificate in Quality Assurance as well as Python with Django. Academically qualified as a Computer Engineer. I do build websites and research on my spare time</p>
+                        <p className='text-lg'>Currently focusing on being Software Quality Assurance Engineer & exploring new technologies day by day. Computer Engineer, professionally trained for a QA Engineer role, with experience in API development and testing. Currently expanding expertise in both manual and automation testing, with a strong focus on ensuring software quality and efficiency. Passionate about learning new testing methodologies and tools to drive excellence in QA</p>
                     </div>
                 
 
