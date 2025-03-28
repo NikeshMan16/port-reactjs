@@ -4,12 +4,12 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import AWS from '../assets/aws.png';
-import Github from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
 import Selenium from '../assets/selenium.png';
 import Python from '../assets/python.png';
 import Jira from '../assets/jira.png';
 import Postman from '../assets/postman.png';
+import JMeter from '../assets/jmeter.png'
+import Zap from '../assets/zap.png'
 
 
 export const Skills = () => {
@@ -52,6 +52,16 @@ export const Skills = () => {
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Postman} alt="postmanIcon" />
                     <h2 className='py-4'>Postman API</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={JMeter} alt="jmeterIcon" />
+                    <h2 className='py-4'>JMeter</h2>
+                </div>
+
+                <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Zap} alt="zapIcon" />
+                    <h2 className='py-4'>OWASP ZAP</h2>
                 </div>
 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
