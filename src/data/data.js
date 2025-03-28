@@ -4,16 +4,18 @@ import workGen from '../assets/project/workoutgen.png'
 import fakeNews from '../assets/fakenews.jpg'
 import resumeMatcher from '../assets/project/Resume.webp'
 import shopCart from '../assets/project/shopcart.webp'
+import autoScript from '../assets/project/autotest.png'
 
 export const data=[
     {
         id:1,
-        name:"ShopCart Application",
-        image:shopCart,
-        tags: ["React", "Frontend", "E-commerce"],
-        github:"https://github.com/NikeshMan16/Major-fake-news-",
+        name:"Autotesting Ecommerce site",
+        image:autoScript,
+        tags: ["Selenium", "Python", "QA automation"],
+        github:"https://github.com/NikeshMan16/ProjectAutomation",
         live:"",
     },
+   
     {
         id:2,
         name:"Fake News Detection system",
@@ -38,6 +40,14 @@ export const data=[
         github:"https://github.com/NikeshMan16/resume-matcher",
         live:"",
     },
+    {
+        id:5,
+        name:"ShopCart Application",
+        image:shopCart,
+        tags: ["React", "Frontend", "E-commerce"],
+        github:"https://github.com/NikeshMan16/test_cart_functionality",
+        live:"",
+    }
 
 
 ]

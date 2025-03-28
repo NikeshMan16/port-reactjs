@@ -113,22 +113,22 @@ export const Work = () => {
 
                 {/* Buttons */}
                 <div className="flex gap-2 mt-6">
-                  {/* <a
+                  <a
                     href={item.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-700 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-600 transition duration-300"
+                    className="bg-green-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-600 transition duration-300"
                   >
                     Code
-                  </a> */}
-                  <a
+                  </a>
+                  {/* <a
                     href={item.live}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-800 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition duration-300"
                   >
                     Code
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
