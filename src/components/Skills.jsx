@@ -10,7 +10,8 @@ import Jira from '../assets/jira.png';
 import Postman from '../assets/postman.png';
 import JMeter from '../assets/jmeter.png'
 import Zap from '../assets/zap.png'
-
+import Appium from '../assets/appium.png'
+import SonarQube from '../assets/sonarqube.png'
 
 export const Skills = () => {
   
@@ -65,15 +66,14 @@ export const Skills = () => {
                 </div>
 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt="htmlIcon" />
-                    <h2 className='py-4'>HTML</h2>
+                    <img className='w-20 mx-auto' src={Appium} alt="appiumIcon" />
+                    <h2 className='py-4'>Appium</h2>
                 </div>
-                
+
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt="cssIcon" />
-                    <h2 className='py-4'>CSS</h2>
+                    <img className='w-20 mx-auto' src={SonarQube} alt="sonarIcon" />
+                    <h2 className='py-4'>SonarQube</h2>
                 </div>
-                
                 
                 <div className='shadow-md shadow-[#040c161] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt="reactIcon" />
