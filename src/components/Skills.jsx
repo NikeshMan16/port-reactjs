@@ -1,6 +1,6 @@
 import React from 'react';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
+// import HTML from '../assets/html.png';
+// import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import AWS from '../assets/aws.png';
@@ -11,7 +11,7 @@ import Postman from '../assets/postman.png';
 import JMeter from '../assets/jmeter.png'
 import Zap from '../assets/zap.png'
 import Appium from '../assets/appium.png'
-import SonarQube from '../assets/sonarqube.png'
+import SonarQube from '../assets/sq.png'
 
 export const Skills = () => {
   
