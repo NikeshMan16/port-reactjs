@@ -26,8 +26,8 @@ export const Home = () => {
                     </span>
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px] text-lg'>
-                    A Computer Engineer currently focusing in <span className='font-semibold text-white'>delivering quality software </span>through proper software testing and automation tests.  {' '}
-                    <span className='font-semibold text-white'> Sometimes, I code</span> and make simple websites.
+                    A Computer Engineer currently focusing in <span className='font-semibold text-white'>delivering quality software </span>through proper software testing and automation tests. I am fond of {' '}
+                    <span className='font-semibold text-white'> automating tests and processes</span> and <span><strike>don't</strike></span> like documenting projects .
                 </p>
 
                 <div>
