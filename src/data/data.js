@@ -5,7 +5,7 @@ import fakeNews from '../assets/fakenews.jpg'
 import resumeMatcher from '../assets/project/Resume.webp'
 import shopCart from '../assets/project/shopcart.webp'
 import autoScript from '../assets/project/autotest.png'
-import performTest from '../assets/project/performTest.png'
+import performTest from '../assets/project/PerformTest.png'
 
 export const data=[
     {
