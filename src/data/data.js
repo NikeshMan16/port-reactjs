@@ -5,6 +5,7 @@ import fakeNews from '../assets/fakenews.jpg'
 import resumeMatcher from '../assets/project/Resume.webp'
 import shopCart from '../assets/project/shopcart.webp'
 import autoScript from '../assets/project/autotest.png'
+import performTest from '../assets/project/performTest.png'
 
 export const data=[
     {
@@ -15,9 +16,18 @@ export const data=[
         github:"https://github.com/NikeshMan16/ProjectAutomation",
         live:"",
     },
-   
+
     {
         id:2,
+        name:"Performance Testing RESTful API",
+        image:performTest,
+        tags: ["Jmeter", "Postman", "QA"],
+        github:"https://github.com/NikeshMan16/JmeterPerformance_testing_Project",
+        live:"",
+    },
+   
+    {
+        id:3,
         name:"Fake News Detection system",
         image:fakeNews,
         tags: ["Python", "AI", "Machine Learning"],
@@ -25,7 +35,7 @@ export const data=[
         live:"",
     },
     {
-        id:3,
+        id:4,
         name:"React JS Exercise Generator",
         image:workGen,
         tags: ["React", "FrontEnd"],
@@ -33,7 +43,7 @@ export const data=[
         live:"",
     },
     {
-        id:4,
+        id:5,
         name:"Resume Matcher",
         image:resumeMatcher,
         tags: ["Python", "NLP", "Automation"],
@@ -41,7 +51,7 @@ export const data=[
         live:"",
     },
     {
-        id:5,
+        id:6,
         name:"ShopCart Application",
         image:shopCart,
         tags: ["React", "Frontend", "E-commerce"],
