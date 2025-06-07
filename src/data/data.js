@@ -31,7 +31,7 @@ export const data=[
         name:"Platzi API testing using Postman",
         image:apiTest,
         tags: ["API testing", "Automation", "QA"],
-        github:"https://github.com/NikeshMan16/test_cart_functionality",
+        github:"https://github.com/NikeshMan16/PlatziAPI-Postman",
         live:"",
     },
     {
