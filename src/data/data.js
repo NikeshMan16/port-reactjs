@@ -19,7 +19,7 @@ export const data=[
 
     {
         id:2,
-        name:"Performance Testing RESTful API",
+        name:"Performance Testing RESTful API using Jmeter",
         image:performTest,
         tags: ["Jmeter", "Postman", "QA"],
         github:"https://github.com/NikeshMan16/JmeterPerformance_testing_Project",
@@ -36,6 +36,14 @@ export const data=[
     },
     {
         id:4,
+        name:"ShopCart Application",
+        image:shopCart,
+        tags: ["React", "Frontend", "E-commerce"],
+        github:"https://github.com/NikeshMan16/test_cart_functionality",
+        live:"",
+    },
+    {
+        id:5,
         name:"React JS Exercise Generator",
         image:workGen,
         tags: ["React", "FrontEnd"],
@@ -43,19 +51,11 @@ export const data=[
         live:"",
     },
     {
-        id:5,
+        id:6,
         name:"Resume Matcher",
         image:resumeMatcher,
         tags: ["Python", "NLP", "Automation"],
         github:"https://github.com/NikeshMan16/resume-matcher",
-        live:"",
-    },
-    {
-        id:6,
-        name:"ShopCart Application",
-        image:shopCart,
-        tags: ["React", "Frontend", "E-commerce"],
-        github:"https://github.com/NikeshMan16/test_cart_functionality",
         live:"",
     }
 
